@@ -50,6 +50,20 @@ def turtleLetter(letter,tur):
 	    pass		
     elif letter == "H":
 	    pass
+	import turtle
+t = turtle.Turtle()
+t.down()
+t.left(90)
+t.fd(100)
+t.bk(50)
+t.right(90)
+t.fd(50)
+t.right(90)
+t.fd(50)
+t.bk(100)
+t.left(90)
+t.up()
+
     elif letter == "I":
 	    pass
     elif letter == "J":
