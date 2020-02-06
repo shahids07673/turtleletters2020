@@ -41,7 +41,6 @@ def turtleLetter(letter,tur):
     elif letter == "C":
 	    pass
     elif letter == "D":
-	import turtle
 	turtle.forward(50)
 	turtle.left(90)
 	turtle.forward(100)
@@ -67,7 +66,6 @@ def turtleLetter(letter,tur):
     elif letter == "L":
 	    pass
     elif letter == "M":
-	import turtle
 	turtle.left(90)
 	turtle.forward(100)
 	turtle.right(150)
@@ -77,7 +75,6 @@ def turtleLetter(letter,tur):
 	turtle.right(150)
 	turtle.forward(100)
     elif letter == "N":
-	import turtle
 	turtle.left(90)
 	turtle.forward(100)
 	turtle.right(150)
