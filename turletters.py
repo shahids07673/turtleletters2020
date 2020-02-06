@@ -49,25 +49,36 @@ def turtleLetter(letter,tur):
     elif letter == "G":
 	    pass		
     elif letter == "H":
-	    pass
 	import turtle
-t = turtle.Turtle()
-t.down()
-t.left(90)
-t.fd(100)
-t.bk(50)
-t.right(90)
-t.fd(50)
-t.right(90)
-t.fd(50)
-t.bk(100)
-t.left(90)
-t.up()
+	t = turtle.Turtle()
+	t.down()
+	t.left(90)
+	t.fd(100)
+	t.bk(50)
+	t.right(90)
+	t.fd(50)
+	t.right(90)
+	t.fd(50)
+	t.bk(100)
+	t.left(90)
+	t.up()
 
     elif letter == "I":
 	    pass
     elif letter == "J":
-	    pass
+	import turtle
+	t = turtle.Turtle()
+	t.down()
+	t.left(90)
+	t.bk(45)
+	t.right(90)
+	t.fd(90)
+	t.left(90)
+	t.fd(190)
+	t.left(90)
+	t.fd(90)
+	t.left(180)
+	t.fd(180)
     elif letter == "K":
 	    pass
     elif letter == "L":
