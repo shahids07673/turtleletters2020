@@ -37,7 +37,25 @@ def turtleLetter(letter,tur):
         tur.fd(35)
         #tur.right(180)
     elif letter == "B":
-	    pass
+	tur.setheading(0)
+        tur.left(90)
+        tur.fd(100)
+        tur.right(90)
+        tur.fd(40)
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(40)
+        tur.left(180)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(100)
+        tur.right(90)
+        tur.fd(50)
     elif letter == "C":
 	    pass
     elif letter == "D":
@@ -45,7 +63,17 @@ def turtleLetter(letter,tur):
     elif letter == "E":
 	    pass
     elif letter == "F":
-	    pass
+	tur.setheading(0)
+        tur.pd()
+        tur.left(90)
+        tur.fd(100)
+        tur.right(90)
+        tur.fd(50)
+        tur.bk(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.left(90)
+        tur.fd(25)
     elif letter == "G":
 	    pass		
     elif letter == "H":
@@ -82,7 +110,12 @@ def turtleLetter(letter,tur):
     elif letter == "K":
 	    pass
     elif letter == "L":
-	    pass
+	tur.setheading(0)
+        tur.pd()
+        tur.fd(50)
+        tur.bk(50)
+        tur.left(90)
+        tur.fd(100)
     elif letter == "M":
 	    pass
     elif letter == "N":
@@ -94,9 +127,35 @@ def turtleLetter(letter,tur):
     elif letter == "Q":
 	    pass
     elif letter == "R":
-	    pass
+	tur.setheading(0)
+        tur.pd()
+        tur.left(90)
+        tur.fd(100)
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.left(135)
+        tur.fd(75)
+        tur.bk(75)
+        tur.left(135)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+	
     elif letter == "S":
-	    pass
+	tur.setheading(0)
+        tur.fd(50)
+        tur.left(90)
+        tur.fd(50)
+        tur.left(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
+        tur.right(90)
+        tur.fd(50)
     elif letter == "T":
 	    pass
     elif letter == "U":
