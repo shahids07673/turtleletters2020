@@ -41,7 +41,15 @@ def turtleLetter(letter,tur):
     elif letter == "C":
 	    pass
     elif letter == "D":
-	    pass
+	import turtle
+	turtle.forward(50)
+	turtle.left(90)
+	turtle.forward(100)
+	turtle.left(90)
+	turtle.forward(50)
+	turtle.left(90)
+	turtle.forward(100)
+	turtle.left(90)
     elif letter == "E":
 	    pass
     elif letter == "F":
@@ -59,9 +67,23 @@ def turtleLetter(letter,tur):
     elif letter == "L":
 	    pass
     elif letter == "M":
-	    pass
+	import turtle
+	turtle.left(90)
+	turtle.forward(100)
+	turtle.right(150)
+	turtle.forward(50)
+	turtle.left(120)
+	turtle.forward(50)
+	turtle.right(150)
+	turtle.forward(100)
     elif letter == "N":
-	    pass
+	import turtle
+	turtle.left(90)
+	turtle.forward(100)
+	turtle.right(150)
+	turtle.forward(110)
+	turtle.left(150)
+	turtle.forward(100)    
     elif letter == "O":
 	    pass
     elif letter == "P":
@@ -75,7 +97,18 @@ def turtleLetter(letter,tur):
     elif letter == "T":
 	    pass
     elif letter == "U":
-	    pass
+	import turtle
+	turtle.forward(50)
+	turtle.left(90)
+	turtle.forward(100)
+	turtle.right(180)
+	turtle.forward(100)
+	turtle.right(90)
+	turtle.forward(50)
+	turtle.right(90)
+	turtle.forward(100)
+
+# 
     elif letter == "V":
 	    pass
     elif letter == "W":
