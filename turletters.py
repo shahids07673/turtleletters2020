@@ -3,13 +3,13 @@ import turtle
 def turtleLetter(letter,tur):
     if letter=="box":
         tur.setheading(0)
-        tur.forward(40)
+        tur.fd(40)
         tur.right(90)
-        tur.forward(60)
+        tur.fd(60)
         tur.right(90)
-        tur.forward(40)
+        tur.fd(40)
         tur.right(90)
-        tur.forward(60)
+        tur.fd(60)
 
     elif letter == "A":
         tur.setheading(0)
@@ -57,15 +57,34 @@ def turtleLetter(letter,tur):
         tur.right(90)
         tur.fd(50)
     elif letter == "C":
+	t = turtle.Turtle()
+	tur.up()
+	tur.bk(180)
+	tur.left(90)
+	tur.down()
+	tur.fd(180)
+	tur.right(90)
+	tur.fd(180)
+	tur.bk(180)
+	tur.right(90)
+	tur.fd(180)
+	tur.left(90)
+	tur.fd(180)
+	tur.bk(180)
+	tur.left(90)
+	tur.fd(180)
+	tur.right(90)
+	tur.fd(180)
+
 	
     elif letter == "D":
-	turtle.forward(50)
+	turtle.fd(50)
 	turtle.left(90)
-	turtle.forward(100)
+	turtle.fd(100)
 	turtle.left(90)
-	turtle.forward(50)
+	turtle.fd(50)
 	turtle.left(90)
-	turtle.forward(100)
+	turtle.fd(100)
 	turtle.left(90)
     elif letter == "E":
 	    pass
@@ -85,34 +104,34 @@ def turtleLetter(letter,tur):
 	
     elif letter == "H":
 	import turtle
-	t = turtle.Turtle()
-	t.down()
-	t.left(90)
-	t.fd(100)
-	t.bk(50)
-	t.right(90)
-	t.fd(50)
-	t.right(90)
-	t.fd(50)
-	t.bk(100)
-	t.left(90)
-	t.up()
+	tur = turtle.Turtle()
+	tur.down()
+	tur.left(90)
+	tur.fd(100)
+	tur.bk(50)
+	tur.right(90)
+	tur.fd(50)
+	tur.right(90)
+	tur.fd(50)
+	tur.bk(100)
+	tur.left(90)
+	tur.up()
     elif letter == "I":
 	    pass
     elif letter == "J":
 	import turtle
-	t = turtle.Turtle()
-	t.down()
-	t.left(90)
-	t.bk(45)
-	t.right(90)
-	t.fd(90)
-	t.left(90)
-	t.fd(190)
-	t.left(90)
-	t.fd(90)
-	t.left(180)
-	t.fd(180)
+	tur. = turtle.Turtle()
+	tur.down()
+	tur.left(90)
+	tur.bk(45)
+	tur.right(90)
+	tur.fd(90)
+	tur.left(90)
+	tur.fd(190)
+	tur.left(90)
+	tur.fd(90)
+	tur.left(180)
+	tur.fd(180)
     elif letter == "K":
 	    pass
     elif letter == "L":
